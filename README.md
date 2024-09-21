@@ -1,7 +1,7 @@
 # EzReviews
 
 EzReviews is a simple web application built with React that allows users to manage customer reviews easily. It features a landing page, login page, and signup page, all styled using Bootstrap 5.
-Find more about the project : [EzReviewz](https://docs.google.com/document/d/1KOwilMZsTIuXkV9sXLbq9N7iocA6ovgY7rdd0NVbQ6E/edit)
+Find more about the project : [EzReviews](https://docs.google.com/document/d/1KOwilMZsTIuXkV9sXLbq9N7iocA6ovgY7rdd0NVbQ6E/edit)
 
 ## Features
 

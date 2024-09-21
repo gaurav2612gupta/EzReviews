@@ -5,6 +5,9 @@ import Signup from './Signup';
 import Home from './Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './Navbar';
+import AddSpace from './AddSpace';
+import Review from './Review';
+import Space from './Space';
 
 
 const App = () => {
@@ -14,7 +17,9 @@ const App = () => {
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
-        {/* Set login as the default page */}
+        <Route path="/space" element={<Space />} />
+        <Route path="/addspace" element={<AddSpace />} />
+        <Route path="/review" element={<Review />} />
         <Route path="/" element={<Home />} />
       </Routes>
     </Router>
