@@ -22,7 +22,7 @@ const spaces = [
       <div className="container mt-5">
         <div className="d-flex justify-content-between align-items-center mb-4">
           <h2>Your Spaces</h2>
-          <Link to="/add-space" className="btn btn-success">Add Spaces</Link> {/* Add Spaces button */}
+          <Link to="/addspace" className="btn btn-success">Add new Space</Link> {/* Add Spaces button */}
         </div>
         <div className="row">
           {spaces.map(space => (
@@ -31,7 +31,7 @@ const spaces = [
                 <div className="card-body text-center">
                   <h5 className="card-title">{space.name}</h5>
                   <p className="card-text">Manage your {space.name} here.</p>
-                  <Link to={`/spaces/${space.id}`} className="btn btn-primary">View</Link>
+                  <Link to={`/space/${space.id}`} className="btn btn-primary">View</Link>
                 </div>
               </div>
             </div>

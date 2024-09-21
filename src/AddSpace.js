@@ -17,7 +17,7 @@ const AddSpace = () => {
   };
 
   return (
-    <div className="container mt-5">
+    <div className="container mt-5 w-50">
       <h1>Add New Space</h1>
       <form onSubmit={handleAddSpace}>
         <div className="mb-3">
